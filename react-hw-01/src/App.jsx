@@ -1,8 +1,11 @@
 import Profile from './components/Profile'
-import userData from "./userData.json";
-import friends from "./friends.json";
+import userData from "./userData.json"
+import friends from "./friends.json"
 import Friendlist from './components/FriendList'
+import transactions from "./transactions.json"
+import TransactionHistory from './components/TransactionHistory'
 import './App.css'
+import clsx from "clsx"
 
 function App() {
 
@@ -15,7 +18,8 @@ function App() {
         image={userData.avatar}
         stats={userData.stats}
       />
-      <Friendlist friends={friends}/>
+      <Friendlist friends={friends} />
+      <TransactionHistory items={transactions} />
     </>
   )
 }
