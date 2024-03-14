@@ -1,9 +1,9 @@
-import Profile from './components/Profile'
+import Profile from './components/Profile/Profile'
 import userData from "./userData.json"
 import friends from "./friends.json"
-import Friendlist from './components/FriendList'
+import Friendlist from './components/FriendList/FriendList'
 import transactions from "./transactions.json"
-import TransactionHistory from './components/TransactionHistory'
+import TransactionHistory from './components/TransactionHistory/TransactionHistory'
 import './App.css'
 import clsx from "clsx"
 
