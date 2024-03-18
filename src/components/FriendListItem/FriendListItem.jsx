@@ -1,5 +1,5 @@
 import clsx from "clsx"
-import css from "../FriendList/FriendListItem.module.css"
+import css from "../FriendListItem/FriendListItem.module.css"
 const FriendListItem = props => {
   const { friend } = props;
   const isOnlineClass = friend.isOnline ? css.online : css.offline;

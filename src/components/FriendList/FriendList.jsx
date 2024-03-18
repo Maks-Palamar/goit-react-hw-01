@@ -1,5 +1,5 @@
-import FriendListItem from "./FriendListItem";
-import css from "../FriendList/FriendListItem.module.css"
+import FriendListItem from "../FriendListItem/FriendListItem";
+import css from "../FriendListItem/FriendListItem.module.css"
 
 const FriendList = props => {
 
